@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "name":"pratham",
+        "email":"kordeprathamesh01@gmail.com",
+        "job":"web devlopeer",
+        "age":21
+    },
+    {
+        "id":1,
+        "name":"pritesh",
+        "email":"priteshdeshmukh01@gmail.com",
+        "job":"dev",
+        "age":20
+    }
+]
