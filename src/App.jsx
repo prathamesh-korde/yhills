@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Exp from "./exp";
 import Profile from "./profile";
+import ToDoList from "./ToDoList";
 
 function App() {
   const userlogin = true;
@@ -29,9 +30,11 @@ function App() {
 
   return (
     <>
-    <p>{state}</p>
-      <Exp state={state}  setStp ={setStp}/>
+    {/*
+    <p>{state} </p>
+      <Exp state={state} setStp ={setStp}/>
       <br />
+      */}
 {/*
       <input
         type="number"
@@ -66,6 +69,8 @@ function App() {
       {/* Conditional Rendering 
       {userlogin ? <Profile /> : <p>Please login!</p>}
       */}
+
+      <ToDoList/>
     </>
   );
 }
